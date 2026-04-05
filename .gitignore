@@ -1,0 +1,20 @@
+# Build artifacts
+*.o
+kernel.bin
+467os.iso
+isodir/
+
+# QEMU / disk
+disk.img
+qemu.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db

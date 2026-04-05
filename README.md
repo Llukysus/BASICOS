@@ -91,3 +91,7 @@ To exit QEMU: type **`quit`** and Enter in the terminal (with `-monitor stdio`),
 - **Boot**: GRUB loads the multiboot kernel; `boot.asm` provides the multiboot header and entry, then calls `kernel_main()` in C.  
 - **Kernel**: VGA text mode (80×25), PS/2 keyboard, ATA PIO disk (for Notes), and multitasking (round-robin).  
 - **Apps**: Linked into the kernel; the menu launches Calculator, Tic-Tac-Toe, Timer, or Notes. Notes use **disk.img** (ATA) for persistence.
+
+## AI usage explained
+
+In this project, I used generative AI through Cursor as a tool to speed up development while maintaining full control over the design and implementation. I began by independently planning the entire system architecture, including the tech stack, project structure, core features, and implementation strategy. With this foundation in place, I used Cursor to assist in generating code that aligned with industry-standard syntax and best practices, improving development speed and code quality. Rather than relying on the generated output blindly, I reviewed every piece of code to make sure I understand everything and how it works to make sure that it matches my intended functionality. This process allowed me to catch any unwanted features, fill in missing components, and refine the code to meet my exact requirements.
